@@ -32,7 +32,7 @@ export class GameManager {
                     this.games.push(game);
                     this.pendingUser = null;
                 } else {
-                    this.pendingUser = null;
+                    this.pendingUser = socket;
                 }
             }
 

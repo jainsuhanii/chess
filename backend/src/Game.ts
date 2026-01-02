@@ -29,6 +29,7 @@ export class Game {
             this.board.move(move);
 
         } catch (e) {
+            console.error("Invalid move", e);
             return;
         }
 
